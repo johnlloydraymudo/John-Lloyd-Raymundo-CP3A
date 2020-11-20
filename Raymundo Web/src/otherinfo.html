@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member's Registration</title>
+</head>
+<body>
+        <h1 align="center">MEMBERS REGISTRATION</h1>
+        <hr color="yellow" size="6">
+        <center>
+            |&nbsp;&nbsp;&nbsp;<a href="../src/membersinfo.html">MEMBER INFO</a>&nbsp;&nbsp;&nbsp; |
+            &nbsp;&nbsp;&nbsp;OTHER INFO</a>&nbsp;&nbsp;&nbsp; |
+            &nbsp;&nbsp;&nbsp;<a href="../src/address.html">ADDRESS</a>&nbsp;&nbsp;&nbsp; |
+            &nbsp;&nbsp;&nbsp;<a href="../src/contacts.html">CONTACTS</a>&nbsp;&nbsp;&nbsp; |
+            &nbsp;&nbsp;&nbsp;<a href="../src/membercatergory.html">MEMBER CATERGORY</a>&nbsp;&nbsp;&nbsp; |
+            </center>
+        <hr color="yellow" size="6">
+        <br>
+        <br>
+        <center>
+            <form method="GET">
+            <table width="70%">
+                <tr>
+                    <td align="right"><label for="bdate" id="bdate" name="bdate">Date of Birth</label></td>
+                    <td></td>
+                    <td><input type="date" id="bdate" name="bdate"></td>
+                </tr>
+
+                <tr>
+                    <td align="right" rowspan="2"><label for="placeofbirth" id="placeofbirth" name="placeofbirth">Place of Birth</label></td>
+                    <td></td>
+                    <td rowspan="2"><textarea name="placeofbirth" id="placeofbirth" cols="40" rows="5"></textarea></td>
+                    <td align="right"><label for="civilstatus">Civil Status</label></td>
+                    <td>
+                        <select id="civilstatus" name="civilstatus">
+                            <option value="Single">Single</option>
+                            <option value="Married">Married</option>
+                            <option value="Legally Separated">Legally Separated</option>
+                            <option value="Annuled">Annuled</option>
+                            <option value="Widow/Widower">Widow/Widower</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Spouse<i>(Maiden name if applicable)</i></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><label for="sex" id="sex" name="sex">Sex</label></td>
+                    <td><input type="radio" id="sex" name="sex" value="Male">Male
+                        <input type="radio" id="sex" name="sex" value="Female">Female</td>
+                    <td align="right">Last Name</td>
+                    <td><input type="text" id="lname" name="lname" maxlength="30" size="20" placeholder="NA"></td>
+                </tr>
+                <tr>
+                    <td align="right">Height</td>
+                    <td></td>
+                    <td><input type="text" id="height" name="height" maxlength="25" size="15">&nbsp;&nbsp;<i>(cm)</i></td>
+                    <td align="right">First Name</td>
+                    <td><input type="text" id="fname" name="fname" maxlength="30" size="20" placeholder="NA"></td>
+                </tr>
+                <tr>
+                    <td align="right">Weight</td>
+                    <td></td>
+                    <td><input type="text" id="weight" name="weight" maxlength="25" size="15">&nbsp;&nbsp;<i>(kg)</i></td>
+                    <td align="right">Name Extension</td>
+                    <td><input type="text" id="extname" name="extname" maxlength="30" size="20" placeholder="NA"></td>
+                </tr>
+                <tr>
+                    <td align="right">TIN</td>
+                    <td></td>
+                    <td><input type="text" id="tin" name="tin" maxlength="10" size="8">
+                        &nbsp;&nbsp; <input type="text" id="tin" name="tin" maxlength="10" size="8">
+                        &nbsp;&nbsp; <input type="text" id="tin" name="tin" maxlength="10" size="8"></td>
+                    <td align="right">Middle Name</td>
+                    <td><input type="text" id="mname" name="mname" maxlength="30" size="20" placeholder="NA"></td>
+                </tr>
+                <tr>
+                    <td align="right">SSS ID No.</td>
+                    <td></td>
+                    <td><input type="text" id="sssidno" name="sssidno" maxlength="30" size="20"></td>
+                    <td align="right" rowspan="2"><label for="prominentdistinguishingfeature" id="prominentdistinguishingfeature" name="prominentdistinguishingfeature">Prominent Distinguishing Feature</label></td>
+                    <td rowspan="2"><textarea cols="40" rows="5" id="prominentdistinguishingfeature" name="prominentdistinguishingfeature"></textarea></td>
+                </tr>
+                <tr>
+                    <td align="right">GSIS ID No.</td>
+                    <td></td>
+                    <td><input type="text" id="gsisidno" name="gsisidno" maxlength="30" size="20"></td>
+                </tr>
+                <tr>
+                    <td align="right">CRN</td>
+                    <td></td>
+                    <td><input type="text" id="crn" name="crn" maxlength="30" size="20"></td>
+                </tr>
+                </table>
+                </form>
+        </center>
+</body>
+</html>
